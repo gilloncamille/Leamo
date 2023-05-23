@@ -4,6 +4,18 @@
   text-align: end;
   padding-top: 27px;
   padding-bottom: 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding-right: 120;
+  margin-bottom: 67px;
+}
+
+header img {
+  margin-bottom: 37px;
+}
+.l-top-nav a {
+  text-decoration: none;
+  padding-right: 29px;
 }
 
 .l-Best-Seller-Product {
@@ -16,12 +28,20 @@
   color: white;
 }
 
+.l-Best-Seller-Product p {
+  padding-right: 104px;
+  padding-top: 27px;
+}
+
 .l-Best-Seller-Product h2 {
+  padding-right: 104px;
+  font-weight: lighter;
   font-family: "Roboto", sans-serif;
   font-size: 60px;
 }
 
 .l-Best-Seller-Product a {
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   padding-top: 45px;
