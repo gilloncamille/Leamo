@@ -1,4 +1,5 @@
 .l-top-nav {
+  position: relative;
   background-color: black;
   color: white;
   text-align: end;
@@ -8,6 +9,12 @@
   font-size: 20px;
   padding-right: 120;
   margin-bottom: 67px;
+}
+
+.l-burger {
+  top: 25px;
+  left: 1371px;
+  position: absolute;
 }
 
 header img {
@@ -94,13 +101,16 @@ header img {
   padding-bottom: 51px;
 }
 
-.l-mail-grey {
+.l-mail-grey p {
+  top: 283px;
+  left: 84px;
+  position: absolute;
   background-color: #7c7c7c;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-size: 20px;
   padding: 20px 143px 20px 24px;
-  margin: 128px 399px 66px 60px;
 }
 
 .l-Our-best-recipes h3 {
@@ -160,4 +170,24 @@ header img {
 .l-contact-us .l-country {
   font-size: 20px;
   padding-bottom: 29px;
+}
+
+.l-write-case {
+  color: white;
+  background-color: #1a1a1a;
+  padding: 9px 35px 9px 15px;
+  margin-left: 132px;
+}
+
+.l-alterfood {
+  margin-top: -18px;
+  color: white;
+  font-size: 20px;
+}
+
+.l-bottom-nav p {
+  padding-top: 27px;
+  padding-left: 60;
+  padding-bottom: 58px;
+  font-size: 10px;
 }

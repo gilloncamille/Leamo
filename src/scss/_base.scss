@@ -50,10 +50,16 @@ h1 {
 // base rules
 // ==================================== */
 
+h1 {
+  padding-left: 58px;
+}
+
 footer {
+  position: relative;
   background-color: black;
   color: white;
   font-family: "Roboto", sans-serif;
+  padding-right: 160px;
 }
 
 footer h2 {
@@ -61,14 +67,31 @@ footer h2 {
   font-size: 60px;
   padding-top: 15px;
   padding-left: 30px;
-  padding-bottom: 128px;
+  padding-bottom: 368px;
 }
 
-footer h3 {
+footer h4 {
   color: #8a8a8a;
   font-weight: lighter;
   font-size: 30px;
   padding-top: 35px;
   padding-left: 30px;
   padding-bottom: 15px;
+}
+
+footer h3 {
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-left: 132px;
+  padding-bottom: 38px;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.492);
+  font-weight: lighter;
+  font-size: 17px;
+  padding-left: 132px;
+  padding-bottom: 20px;
 }
