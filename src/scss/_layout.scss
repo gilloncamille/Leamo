@@ -213,3 +213,14 @@ header img {
   padding-bottom: 58px;
   font-size: 10px;
 }
+
+.l-scroll-product {
+  position: relative;
+  display: flex;
+  overflow-x: scroll;
+  transition: transform 0.2s;
+}
+
+.l-scroll-product :hover {
+  transform: scale(1.2);
+}
