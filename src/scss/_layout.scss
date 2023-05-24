@@ -20,9 +20,31 @@
 header img {
   margin-bottom: 37px;
 }
+
 .l-top-nav a {
   text-decoration: none;
   padding-right: 29px;
+}
+
+.l-introduction {
+  position: relative;
+}
+
+.l-citation {
+  top: 88px;
+  left: 18px;
+  position: absolute;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.l-citation p {
+  font-size: 30px;
+}
+
+.l-citation div {
+  font-size: 15px;
 }
 
 .l-bio-product .container {
