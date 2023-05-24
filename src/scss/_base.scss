@@ -29,6 +29,7 @@ body {
 
   max-width: 1437px;
   margin: auto;
+  background-color: rgb(144, 113, 113);
 }
 
 a {
@@ -49,6 +50,10 @@ h1 {
 /* ====================================
 // base rules
 // ==================================== */
+header,
+main {
+  background-color: white;
+}
 
 h1 {
   padding-left: 58px;
