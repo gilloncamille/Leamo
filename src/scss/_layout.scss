@@ -1,14 +1,27 @@
 .l-top-nav {
   position: relative;
-  background-color: black;
   color: white;
   text-align: end;
   padding-top: 27px;
   padding-bottom: 32px;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  padding-right: 120;
+
   margin-bottom: 67px;
+  background-color: black;
+}
+
+@media (min-width: 360px) {
+  .l-top-nav {
+    padding-right: 30;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1443px) {
+  .l-top-nav {
+    font-size: 20px;
+  }
 }
 
 .l-burger {
@@ -39,6 +52,18 @@ header img {
   font-weight: lighter;
 }
 
+@media (min-width: 360px) {
+  .l-citation {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 1443px) {
+  .l-citation {
+    font-size: 20px;
+  }
+}
+
 .l-citation p {
   font-size: 30px;
 }
@@ -57,10 +82,23 @@ header img {
   border-radius: 50px;
   padding: 7px 38px 8px 38px;
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
   background-color: black;
   color: white;
   margin-bottom: 138px;
+  font-size: 36px;
+}
+
+@media (min-width: 360px) {
+  .l-bio-product-list {
+    padding: 7px 20px 8px 20px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1443px) {
+  .l-bio-product-list {
+    font-size: 36px;
+  }
 }
 
 .l-Best-Seller-Product {
@@ -154,16 +192,16 @@ header img {
   padding-top: 38px;
 }
 
+.l-points-of-sale {
+  position: relative;
+}
+
 .l-points-of-sale h3 {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-size: 30px;
   padding-left: 56px;
   padding-bottom: 22px;
-}
-
-.l-points-of-sale {
-  position: relative;
 }
 
 .l-contact-us {

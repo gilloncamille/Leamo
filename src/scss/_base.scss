@@ -15,10 +15,6 @@
   padding: 0;
 }
 
-html {
-  font-size: 16px;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,8 +23,6 @@ body {
   font-size: 1rem;
   line-height: 1.25;
 
-  max-width: 1437px;
-  margin: auto;
   background-color: rgb(144, 113, 113);
 }
 
@@ -91,6 +85,18 @@ footer h3 {
   padding-top: 35px;
   padding-left: 132px;
   padding-bottom: 38px;
+}
+
+@media (min-width: 360px) {
+  footer h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1443px) {
+  footer h2 {
+    font-size: 60px;
+  }
 }
 
 footer p {
