@@ -103,39 +103,6 @@ header img {
   margin: 128px 399px 66px 60px;
 }
 
-.l-points-of-sale h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-  font-size: 30px;
-  padding-left: 56px;
-  padding-bottom: 22px;
-}
-
-.l-contact-us {
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-  color: white;
-  background-color: #000000ce;
-}
-
-.l-contact-us h2 {
-  font-weight: lighter;
-  font-size: 60px;
-  padding: 32px 195px 15px 30px;
-}
-
-.l-contact-us p {
-  font-weight: lighter;
-  font-size: 25px;
-  padding: 32px 195px 15px 30px;
-}
-
-.country {
-  font-weight: lighter;
-  font-size: 20px;
-  padding: 85px 60px 29px 30px;
-}
-
 .l-Our-best-recipes h3 {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
@@ -153,4 +120,44 @@ header img {
   padding-right: 75px;
   padding-bottom: 141px;
   padding-top: 38px;
+}
+
+.l-points-of-sale h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-left: 56px;
+  padding-bottom: 22px;
+}
+
+.l-points-of-sale {
+  position: relative;
+}
+
+.l-contact-us {
+  position: absolute;
+  top: 259px;
+  left: 754px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  color: white;
+  background-color: #000000ce;
+  margin-left: 60px;
+}
+
+.l-contact-us h2 {
+  font-weight: lighter;
+  font-size: 60px;
+  padding: 32px 195px 15px 30px;
+}
+
+.l-contact-us p {
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 32px 195px 15px 30px;
+}
+
+.l-contact-us .l-country {
+  font-size: 20px;
+  padding-bottom: 29px;
 }
